@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Maui;
+using epj.RouteGenerator;
 using Meterizer.ViewModels;
 using Meterizer.Views;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -7,6 +8,7 @@ using Plugin.Maui.Biometric;
 
 namespace Meterizer;
 
+[AutoRoutes("Page")]
 public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
