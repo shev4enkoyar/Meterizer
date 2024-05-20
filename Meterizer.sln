@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4AED34C7-C1EA-4873-A747-88C11039126F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1D71D470-A984-4E2D-B4F7-008630D7CF6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meterizer", "Meterizer\Meterizer.csproj", "{F8348268-126A-4EA9-80B3-B15B5FB6EA8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8348268-126A-4EA9-80B3-B15B5FB6EA8E} = {4AED34C7-C1EA-4873-A747-88C11039126F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8348268-126A-4EA9-80B3-B15B5FB6EA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8348268-126A-4EA9-80B3-B15B5FB6EA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8348268-126A-4EA9-80B3-B15B5FB6EA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8348268-126A-4EA9-80B3-B15B5FB6EA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
