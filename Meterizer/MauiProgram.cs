@@ -3,6 +3,7 @@ using Meterizer.ViewModels;
 using Meterizer.Views;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
+using Plugin.Maui.Biometric;
 
 namespace Meterizer;
 
@@ -40,6 +41,7 @@ public static class MauiProgram
 
     private static MauiAppBuilder AddServices(this MauiAppBuilder builder)
     {
+        builder.Services.AddSingleton(BiometricAuthenticationService.Default);
         return builder;
     }
 
